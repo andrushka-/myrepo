@@ -16,8 +16,6 @@ console.log( response );
 var mob_no = response.phone.profile.mobile;
 $('#cont_no').val(mob_no);
 
-
-
 // script for validating mobile number prefix
 //var temp_mob_no = mob_no;
 var temp_mob_no = mob_no.replace(/[^0-9]/g, '');
